@@ -201,7 +201,8 @@ p {
 .card {
     
     
-    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
     box-shadow: 0 4px 8px 0 rgba(20, 5, 5, 0.603);
     transition: 0.3s;
   }
